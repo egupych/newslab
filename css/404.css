@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style: inherit;	
+	vertical-align: baseline;
+}
+
+i, em {
+	font-style: oblique;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	font-size: 100%;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	min-width: 960px;
+	max-width: 1440px;
+	background: #ddd;
+	color: #000;		
+}
+
+a {
+	color: #ef3807;
+}
+
+a:hover, .contacts a:hover {
+	color: #f70;
+}
+
+a:active {	
+	outline: none;	
+}
+a:focus {
+	outline: none;	
+	-moz-outline-style:none;
+}
+
+.page {
+	margin: 2em 2em 0;
+	padding: 2em 4em;
+	margin-right: 50%;
+	background: #fff;
+}
+
+.logotype {
+	font-size: 1.5em;	
+	text-decoration: none;
+}
+
+.logotype strong {
+	color: #111;
+	font-family: "Trebuchet MS", "Tahoma", Arial;
+}
+
+.logotype strong em {
+	color: #f70;
+	font-style: normal;
+}
+
+.mark-alt {
+	background: #ffd;
+}
+
+p {
+	line-height: 1.5em;
+	margin-top: 1em;
+}
+
+h1 {font-size:2em; line-height:1; font-weight: normal; margin: 1em 0 0; color: #b33;}
+h2 {font-size:1.3em; margin-bottom:0.75em;}
+
+.search {
+	margin-top: 2em;
+}
+
+.contacts {
+	margin-top: 3em;
+	padding-top: 1em;
+	color: #777;
+	border-top: 1px solid #aaa;
+}
+
+.contacts p {
+	font-size: .75em;	
+}
+
+.contacts a {
+	color: #777;
+}
+
+.counters {
+	margin-top: 1em;
+}
