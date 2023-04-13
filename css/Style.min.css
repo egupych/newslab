@@ -1905,7 +1905,7 @@ flex-grow: 0;
 
     display: flex;
     padding: 1.46vw;
-    margin-bottom: 2.19vw;
+    margin-bottom: 4vw;
 
 
     background: #F7F7FA;
@@ -1919,7 +1919,7 @@ flex-grow: 0;
     display: flex;
     flex-direction: row-reverse;
     padding: 1.46vw;
-    margin-bottom: 2.19vw;
+    margin-bottom: 4vw;
     
     
     background: #F7F7FA;
@@ -2160,7 +2160,7 @@ flex-grow: 0;
 
     display: flex;
     padding: 2.19vw;
-    margin-bottom: vw;
+    margin-bottom: 6vw;
 
 
     background: #F7F7FA;
@@ -2174,7 +2174,7 @@ flex-grow: 0;
     display: flex;
     flex-direction: row-reverse;
     padding: 2.19vw;
-    margin-bottom: 3.29vw;
+    margin-bottom: 6vw;
     
     
     background: #F7F7FA;
