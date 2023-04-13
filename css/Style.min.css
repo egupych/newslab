@@ -1547,10 +1547,262 @@ span.comments_num::after {
 
 .points_of_growth{
     position: relative;
+    left: 14px;
+
+    width: 836px;
+
+    background: #F7F7FB;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.backImg{
+    width: 836px;
+}
+
+.points_of_growth_header{
+    height: 520px;
+    position: absolute;
+}
+
+.specH3 {
+    /* Спецпроект */
+    position: absolute;
+    left: 49px;
+    top: 43px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+
+    color: #000839;
+}
+.specH2 {
+/* Красноярский край: */
+    position: absolute;
+    left: 45px;
+    top: 82px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 51px;
+    line-height: 103.9%;
+    /* identical to box height, or 53px */
+
+    text-transform: uppercase;
+
+    color: #000839;
+}
+.specH1 {
+/* точки роста */
+    position: absolute;
+    left: 50px;
+    top: 140px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 103.9%;
+
+    text-transform: uppercase;
+
+    color: #000839;
+}
+
+
+.circle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 416px;
+    top: 158px;
+
+    border-radius: 100%;
+
+    background: #FF9000;
+    mix-blend-mode: multiply;
+}
+
+.points_of_growth_header-tone{
+    position: absolute;
+    width: 837px;
+    height: 180px;
+    left: 0px;
+    top: 340px;
+
+    background: linear-gradient(180deg, rgba(0, 8, 57, 0) 0%, #000839 130%);
+}
+
+.points_of_growth_body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+}
+
+.points_of_growth_body .img {
+    width: 390px;
+}
+
+.points_of_growt_card-left {
+width: 777px;
+
+display: flex;
+padding: 20px;
+margin-bottom: 30px;
+
+
+background: #F7F7FA;
+border-radius: 12px;
+filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.02)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0112458));
+}
+
+.points_of_growt_card-right {
+    width: 777px;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+    
+    background: #F7F7FA;
+    border-radius: 12px;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.02)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0112458));
+    }
+
+.angle {
+    position: absolute;
+    mix-blend-mode: multiply;
+    top: 0;
+    left:0;
+    z-index: -1;
+    border-radius: 14.5px;
+}
+
+.angle-right {
+    position: absolute;
+    mix-blend-mode: multiply;
+    top: 0;
+    right:0;
+    z-index: -1;
+    border-radius: 14.5px;
+}
+
+.angle img {
+    width: 124px;
+    border-radius: 10px 0 0 0vw;
+}
+
+.angle-right img {
+    width: 124px;
+    border-radius: 0 10px 0 0vw;
+}
+
+.points_of_growt_card_image {
+    z-index: -1;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+.points_of_growt_card_text{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.specH4{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 114.9%;
+    /* or 33px */
+    
+    
+    color: #000839;
+}
+
+.specH5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    
+    color: #000839;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+
+.specBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 32px;
+    gap: 10px;
+    max-width: 260px;
+    
+    background: #FF9000;
+    border-radius: 45px;
+    /* transition: all 30ms; */
+
+}
+
+.specBtn:hover{
+    background: #000839;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.specBtnText {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+color: #FFFFFF;
+text-decoration: none;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.specBtnCircle{
+width: 10px;
+height: 10px;
+background: #FFFFFF;
+border-radius: 100%;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+@media screen  and (max-width: 1366px) {
+.points_of_growth{
+    position: relative;
     left: 1vw;
 
     width: 62vw;
-    /* height: 156vw; */
 
     background: #F7F7FB;
     
@@ -1795,7 +2047,7 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
-
+}
 
 /* Egupych finish*/
 
