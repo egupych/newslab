@@ -1695,12 +1695,12 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
 }
 
 .angle img {
-    width: 124px;
+    width: 116px;
     border-radius: 10px 0 0 0vw;
 }
 
 .angle-right img {
-    width: 124px;
+    width: 116px;
     border-radius: 0 10px 0 0vw;
 }
 
@@ -1797,12 +1797,12 @@ order: 1;
 flex-grow: 0;
 }
 
-@media screen  and (max-width: 1366px) {
+@media screen  and (max-width: 1300px) {
 .points_of_growth{
     position: relative;
     left: 1vw;
 
-    width: 62vw;
+    width: 64vw;
 
     background: #F7F7FB;
     
@@ -1811,11 +1811,10 @@ flex-grow: 0;
 }
 
 .backImg{
-    width: 62vw;
+    width: 64vw;
 }
 
 .points_of_growth_header{
-    height: 38vw;
     position: absolute;
 }
 
@@ -1883,10 +1882,10 @@ flex-grow: 0;
 
 .points_of_growth_header-tone{
     position: absolute;
-    width: 62vw;
+    width: 64vw;
     height: 13.14vw;
     left: 0vw;
-    top: 25.4vw;
+    top: 26.6vw;
 
     background: linear-gradient(180deg, rgba(0, 8, 57, 0) 0%, #000839 130%);
 }
@@ -1947,7 +1946,7 @@ flex-grow: 0;
 }
 
 .angle img {
-    width: 9vw;
+    width: 10.2vw;
     border-radius: 0.73vw 0 0 0vw;
 }
 
@@ -2052,8 +2051,6 @@ flex-grow: 0;
 /* Egupych finish*/
 
 
-
-
 /* Egupych media start*/
 
 @media screen  and (max-width: 991px) {
@@ -2062,7 +2059,7 @@ flex-grow: 0;
     position: relative;
     left: 1.5vw;
 
-    width: 93vw;
+    width: 97vw;
     /* height: 156vw; */
 
     background: #F7F7FB;
@@ -2072,7 +2069,7 @@ flex-grow: 0;
 }
 
 .backImg{
-    width: 93vw;
+    width: 97vw;
 }
 
 .points_of_growth_header{
@@ -2144,10 +2141,10 @@ flex-grow: 0;
 
 .points_of_growth_header-tone{
     position: absolute;
-    width: 93vw;
+    width: 97vw;
     height: 19.71vw;
     left: 0vw;
-    top: 38.1vw;
+    top: 40.8vw;
 
     background: linear-gradient(180deg, rgba(0, 8, 57, 0) 0%, #000839 130%);
 }
@@ -2199,12 +2196,12 @@ flex-grow: 0;
 }
 
 .angle img {
-    width: 13.5vw;
+    width: 16.2vw;
     border-radius: 1.1vw 0 0 0vw;
 }
 
 .angle-right img {
-    width: 13.5vw;
+    width: 16.2vw;
     border-radius: 0 1.1vw 0 0vw;
 }
 
