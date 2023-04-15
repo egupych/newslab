@@ -1550,12 +1550,12 @@ span.comments_num::after {
   
 
 .box {
-    transform: translateX(400%);
-    transition: transform 1.7s ease;
+    transform: translateX(50%);
+    transition: transform 2s ease;
 }
 
 .box:nth-of-type(even) {
-    transform: translateX(-400%);
+    transform: translateX(-50%);
 }
 
 .box.show {
@@ -1654,7 +1654,7 @@ span.comments_num::after {
     mix-blend-mode: multiply;
 
     animation-name: S_circle;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
     animation-direction: alternate;
