@@ -1551,19 +1551,16 @@ span.comments_num::after {
 
 .box {
     transform: translateX(400%);
-    transition: transform 0.7s ease;
-    transform: scale(0.5);
+    transition: transform 1.7s ease;
 }
 
 .box:nth-of-type(even) {
     transform: translateX(-400%);
-    transform: scale(0.5);
 }
 
 .box.show {
     transform: translateX(0);
     display: flex;
-    transform: scale(1);
 }
 
 
