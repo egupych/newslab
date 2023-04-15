@@ -1543,7 +1543,7 @@ span.comments_num::after {
 .yandex-ad-wrapper{padding-bottom:15px}.b-banner-wrapper .yap-block__240x400 .yap-title__link,.b-banner-wrapper .yap-block__240x400 .yap-title__link b{font-size:16px!important}.yandex-ad{font-family:"PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif}.yandex-ad .yap-logo{border-top:1px solid #d5d5d5!important;margin-top:10px!important;width:100%!important;display:inline-block!important;padding-left:.7em!important;-webkit-box-sizing:border-box!important;-moz-box-sizing:border-box!important;box-sizing:border-box!important;background:#FFF!important;font-size:100%!important;color:#656565!important;font-family:inherit!important}.yandex-ad .yap-logo-block{position:relative!important;z-index:1!important;display:block!important;-webkit-box-sizing:content-box!important;-moz-box-sizing:content-box!important;box-sizing:content-box!important}.yandex-ad .yap-yandex-ad-horizontal .yap-layout__logo{background:#fff!important}.yandex-ad .yap-logo .yap-logo-position{margin-top:-10px!important}.yandex-ad a.yap-logo-text{font-family:"PT Serif"!important;background:#fff!important;text-decoration:none!important;padding-left:4px!important;margin-left:21px!important;font-size:12px!important;color:#656565!important}.yandex-ad .yap-title-block__text{font-weight:400!important;font-family:"PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif!important}.yandex-ad .yap-layout__title{padding-bottom:5px!important}
 .relap-newslab_ru__list__view-strings .relap-newslab_ru__list__fake-item,.relap-newslab_ru__list__view-strings .relap-newslab_ru__list__item{min-width:100px!important}.relap-newslab_ru__plates__item-link:hover{text-decoration:none!important;color:#ff7500!important}.relap-newslab_ru__plates-wrapper .relap-newslab_ru__plates__item-title{margin-top:15px!important}@media (min-width:768px) and (max-width:991px){.r-recommend .relap-newslab_ru__plates__item:nth-child(7),.r-recommend .relap-newslab_ru__plates__item:nth-child(8){display:none!important}}@media (max-width:767px){.r-recommend .relap-newslab_ru__plates__item:nth-child(3),.r-recommend .relap-newslab_ru__plates__item:nth-child(4),.r-recommend .relap-newslab_ru__plates__item:nth-child(5),.r-recommend .relap-newslab_ru__plates__item:nth-child(6),.r-recommend .relap-newslab_ru__plates__item:nth-child(7),.r-recommend .relap-newslab_ru__plates__item:nth-child(8){display:none!important}}
 
-/* :::::::::::::::::::::::::::::::Egupych start:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::*/
 
 .points_of_growth{
     position: relative;
@@ -1566,7 +1566,7 @@ span.comments_num::after {
     position: absolute;
 }
 
-.specH3 {
+.egupH3 {
     /* Спецпроект */
     position: absolute;
     left: 49px;
@@ -1581,7 +1581,7 @@ span.comments_num::after {
 
     color: #000839;
 }
-.specH2 {
+.egupH2 {
 /* Красноярский край: */
     position: absolute;
     left: 45px;
@@ -1598,7 +1598,7 @@ span.comments_num::after {
 
     color: #000839;
 }
-.specH1 {
+.egupH1 {
 /* точки роста */
     position: absolute;
     left: 50px;
@@ -1719,7 +1719,7 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     padding-right: 20px;
 }
 
-.specH4{
+.egupH4{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
@@ -1729,7 +1729,7 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     color: #000839;
 }
 
-.specH5{
+.egupH5{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -1741,7 +1741,7 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     margin-bottom: 30px;  
 }
 
-.specBtn{
+.egupBtn{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1752,14 +1752,13 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     
     background: #FF9000;
     border-radius: 45px;
-
 }
 
-.specBtn:active {
+.egupBtn:active {
     transform: scale(0.97);
    }
 
-.specBtn:hover{
+.egupBtn:hover{
     background: #000839;
 }
 
@@ -1772,7 +1771,7 @@ a:hover {
   color: #fff;
 }
 
-.specBtnText {
+.egupBtnText {
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -1786,7 +1785,7 @@ order: 0;
 flex-grow: 0;
 }
 
-.specBtnCircle{
+.egupBtnCircle{
 width: 10px;
 height: 10px;
 background: #FFFFFF;
@@ -1808,7 +1807,7 @@ flex-grow: 0;
     width: 64vw;
 }
 
-.specH3 {
+.egupH3 {
     /* Спецпроект */
     left: 3.57vw;
     top: 3.14vw;
@@ -1816,14 +1815,14 @@ flex-grow: 0;
     font-size: 2.04vw;
     line-height: 2.48vw;
 }
-.specH2 {
+.egupH2 {
 /* Красноярский край: */
     left: 3.28vw;
     top: 5.99vw;
 
     font-size: 3.72vw;
 }
-.specH1 {
+.egupH1 {
 /* точки роста */
     left: 3.64vw;
     top: 10.22vw;
@@ -1898,11 +1897,11 @@ flex-grow: 0;
     padding-right: 1.46vw;
 }
 
-.specH4{
+.egupH4{
     font-size: 1.97vw;
 }
 
-.specH5{
+.egupH5{
     font-size: 1.39vw;
     line-height: 1.68vw;
     
@@ -1910,7 +1909,7 @@ flex-grow: 0;
     margin-bottom: 2.19vw;
 }
 
-.specBtn{
+.egupBtn{
     padding: 1.31vw 2.33vw;
     gap: 0.73vw;
     max-width: 19vw;
@@ -1918,15 +1917,15 @@ flex-grow: 0;
     border-radius: 3.28vw;
 }
 
-.specBtn:active {
+.egupBtn:active {
     transform: scale(1);
    }
 
-.specBtnText {
+.egupBtnText {
 font-size: 1vw;
 }
 
-.specBtnCircle{
+.egupBtnCircle{
 width: 0.73vw;
 height: 0.73vw;
 }
@@ -1949,7 +1948,7 @@ height: 0.73vw;
     height: 57vw;
 }
 
-.specH3 {
+.egupH3 {
     /* Спецпроект */
     left: 5.36vw;
     top: 4.71vw;
@@ -1957,14 +1956,14 @@ height: 0.73vw;
     font-size: 3.06vw;
     line-height: 3.72vw;
 }
-.specH2 {
+.egupH2 {
 /* Красноярский край: */
     left: 4.92vw;
     top: 8.99vw;
 
     font-size: 5.58vw;
 }
-.specH1 {
+.egupH1 {
 /* точки роста */
     left: 5.46vw;
     top: 15.33vw;
@@ -2038,11 +2037,11 @@ height: 0.73vw;
     padding-right: 2.19vw;
 }
 
-.specH4{
+.egupH4{
     font-size: 2.96vw;
 }
 
-.specH5{
+.egupH5{
     font-size: 2.09vw;
     line-height: 2.52vw;
     
@@ -2050,7 +2049,7 @@ height: 0.73vw;
     margin-bottom: 3.29vw;
 }
 
-.specBtn{
+.egupBtn{
     padding: 1.97vw 3.5vw;
     gap: 1.1vw;
     max-width: 28.5vw;
@@ -2058,14 +2057,14 @@ height: 0.73vw;
     border-radius: 4.92vw;
 }
 
-.specBtnText {
+.egupBtnText {
 font-size: 1.5vw;
 }
 
-.specBtnCircle{
+.egupBtnCircle{
 width: 1.1vw;
 height: 1.1vw;
 }
 }
 
-/* :::::::::::::::::::::::::::::::Egupych finish:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup finish:::::::::::::::::::::::::::::::*/
