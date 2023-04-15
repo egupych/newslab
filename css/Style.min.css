@@ -1720,14 +1720,11 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
 }
 
 .specH4{
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
     font-size: 27px;
     line-height: 114.9%;
-    /* or 33px */
-    
     
     color: #000839;
 }
@@ -1759,7 +1756,7 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
 }
 
 .specBtn:active {
-    transform: scale(0.98);
+    transform: scale(0.97);
    }
 
 .specBtn:hover{
@@ -1802,100 +1799,54 @@ flex-grow: 0;
 
 @media screen  and (max-width: 1300px) {
 .points_of_growth{
-    position: relative;
     left: 1vw;
 
     width: 64vw;
-
-    background: #F7F7FB;
-    
-    display: flex;
-    justify-content: center;
 }
 
 .backImg{
     width: 64vw;
 }
 
-.points_of_growth_header{
-    position: absolute;
-}
-
 .specH3 {
     /* Спецпроект */
-    position: absolute;
     left: 3.57vw;
     top: 3.14vw;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
     font-size: 2.04vw;
     line-height: 2.48vw;
-    text-transform: uppercase;
-
-    color: #000839;
 }
 .specH2 {
 /* Красноярский край: */
-    position: absolute;
     left: 3.28vw;
     top: 5.99vw;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
     font-size: 3.72vw;
-    line-height: 103.9%;
-
-    text-transform: uppercase;
-
-    color: #000839;
 }
 .specH1 {
 /* точки роста */
-    position: absolute;
     left: 3.64vw;
     top: 10.22vw;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
     font-size: 3.72vw;
-    line-height: 103.9%;
-
-    text-transform: uppercase;
-
-    color: #000839;
+    line-height: 104%;
 }
 
 
 .circle{
-    position: absolute;
     width: 3.65vw;
     height: 3.65vw;
     left: 30.36vw;
     top: 11.53vw;
-
-    border-radius: 100%;
-
-    background: #FF9000;
-    mix-blend-mode: multiply;
 }
 
 .points_of_growth_header-tone{
-    position: absolute;
     width: 64vw;
     height: 13.14vw;
-    left: 0vw;
     top: 26.6vw;
-
-    background: linear-gradient(180deg, rgba(0, 8, 57, 0) 0%, #000839 130%);
 }
 
 .points_of_growth_body {
-    display: flex;
-    flex-direction: column;
     margin-top: 29.2vw;
 }
 
@@ -1906,46 +1857,23 @@ flex-grow: 0;
 .points_of_growt_card-left {
     width: 56.71vw;
 
-    display: flex;
     padding: 1.46vw;
     margin-bottom: 4vw;
 
 
-    background: #F7F7FA;
     border-radius: 1vw;
-    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 1.6vw 1.31vw rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 0.88vw 0.73vw rgba(0, 0, 0, 0.02)) drop-shadow(0px 0.43vw 0.38vw rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 0.2vw 0.16vw rgba(0, 0, 0, 0.0112458));
+        filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 1.6vw 1.31vw rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 0.88vw 0.73vw rgba(0, 0, 0, 0.02)) drop-shadow(0px 0.43vw 0.38vw rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 0.2vw 0.16vw rgba(0, 0, 0, 0.0112458));
+
 }
 
 .points_of_growt_card-right {
     width: 56.71vw;
 
-    display: flex;
-    flex-direction: row-reverse;
     padding: 1.46vw;
     margin-bottom: 4vw;
     
-    
-    background: #F7F7FA;
     border-radius: 1vw;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 1.6vw 1.31vw rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 0.88vw 0.73vw rgba(0, 0, 0, 0.02)) drop-shadow(0px 0.43vw 0.38vw rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 0.2vw 0.16vw rgba(0, 0, 0, 0.0112458));
-}
-
-
-.angle {
-    position: absolute;
-    mix-blend-mode: multiply;
-    top: 0;
-    left:0;
-    z-index: -1;
-    border-radius: 1.1vw;
-}
-
-.angle-right {
-    position: absolute;
-    mix-blend-mode: multiply;
-    top: 0;
-    right:0;
-    z-index: -1;
 }
 
 .angle img {
@@ -1958,9 +1886,6 @@ flex-grow: 0;
     border-radius: 0 0.73vw 0 0vw;
 }
 
-.points_of_growt_card_image {
-    z-index: -1;
-}
 
 .img {
     border-radius: 0.58vw;
@@ -1974,79 +1899,36 @@ flex-grow: 0;
 }
 
 .specH4{
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
     font-size: 1.97vw;
-    line-height: 114.9%;
-    /* or 33px */
-    
-    
-    color: #000839;
 }
 
 .specH5{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 1.39vw;
     line-height: 1.68vw;
     
-    color: #000839;
     margin-top: 2.19vw;
     margin-bottom: 2.19vw;
 }
 
 .specBtn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 1.31vw 2.33vw;
     gap: 0.73vw;
     max-width: 19vw;
     
-    background: #FF9000;
     border-radius: 3.28vw;
 }
 
-.specBtn:hover{
-    background: #000839;
-}
-
-a,
-a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-  color: #fff;
-}
+.specBtn:active {
+    transform: scale(1);
+   }
 
 .specBtnText {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
 font-size: 1vw;
-
-color: #FFFFFF;
-text-decoration: none;
-
-flex: none;
-order: 0;
-flex-grow: 0;
 }
 
 .specBtnCircle{
 width: 0.73vw;
 height: 0.73vw;
-background: #FFFFFF;
-border-radius: 100%;
-
-flex: none;
-order: 1;
-flex-grow: 0;
 }
 }
 
@@ -2054,16 +1936,9 @@ flex-grow: 0;
 @media screen  and (max-width: 991px) {
 
 .points_of_growth{
-    position: relative;
     left: 1.5vw;
 
     width: 97vw;
-    /* height: 156vw; */
-
-    background: #F7F7FB;
-    
-    display: flex;
-    justify-content: center;
 }
 
 .backImg{
@@ -2072,84 +1947,47 @@ flex-grow: 0;
 
 .points_of_growth_header{
     height: 57vw;
-    position: absolute;
 }
 
 .specH3 {
     /* Спецпроект */
-    position: absolute;
     left: 5.36vw;
     top: 4.71vw;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
     font-size: 3.06vw;
     line-height: 3.72vw;
-    text-transform: uppercase;
-
-    color: #000839;
 }
 .specH2 {
 /* Красноярский край: */
-    position: absolute;
     left: 4.92vw;
     top: 8.99vw;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
     font-size: 5.58vw;
-    line-height: 104%;
-
-    text-transform: uppercase;
-
-    color: #000839;
 }
 .specH1 {
 /* точки роста */
-    position: absolute;
     left: 5.46vw;
     top: 15.33vw;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
     font-size: 5.58vw;
     line-height: 104%;
-
-    text-transform: uppercase;
-
-    color: #000839;
 }
 
 
 .circle{
-    position: absolute;
     width: 5.48vw;
     height: 5.48vw;
     left: 45.54vw;
     top: 17.3vw;
-
-    border-radius: 100%;
-
-    background: #FF9000;
-    mix-blend-mode: multiply;
 }
 
 .points_of_growth_header-tone{
-    position: absolute;
     width: 97vw;
     height: 19.71vw;
-    left: 0vw;
     top: 40.8vw;
-
-    background: linear-gradient(180deg, rgba(0, 8, 57, 0) 0%, #000839 130%);
 }
 
 .points_of_growth_body {
-    display: flex;
-    flex-direction: column;
     margin-top: 43.8vw;
 }
 
@@ -2160,12 +1998,10 @@ flex-grow: 0;
 .points_of_growt_card-left {
     width: 85.06vw;
 
-    display: flex;
     padding: 2.19vw;
     margin-bottom: 6vw;
 
 
-    background: #F7F7FA;
     border-radius: 1.5vw;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 1.6vw 1.31vw rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 0.88vw 0.73vw rgba(0, 0, 0, 0.02)) drop-shadow(0px 0.43vw 0.38vw rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 0.2vw 0.16vw rgba(0, 0, 0, 0.0112458));
 }
@@ -2173,24 +2009,11 @@ flex-grow: 0;
 .points_of_growt_card-right {
     width: 85.06vw;
 
-    display: flex;
-    flex-direction: row-reverse;
     padding: 2.19vw;
     margin-bottom: 6vw;
     
-    
-    background: #F7F7FA;
     border-radius: 1.5vw;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 1.6vw 1.31vw rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 0.88vw 0.73vw rgba(0, 0, 0, 0.02)) drop-shadow(0px 0.43vw 0.38vw rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 0.2vw 0.16vw rgba(0, 0, 0, 0.0112458));
-}
-
-
-.angle {
-    position: absolute;
-    mix-blend-mode: multiply;
-    top: 0;
-    left:0;
-    z-index: -1;
 }
 
 .angle img {
@@ -2203,9 +2026,6 @@ flex-grow: 0;
     border-radius: 0 1.1vw 0 0vw;
 }
 
-.points_of_growt_card_image {
-    z-index: -1;
-}
 
 .img {
     border-radius: 0.87vw;
@@ -2219,77 +2039,32 @@ flex-grow: 0;
 }
 
 .specH4{
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
     font-size: 2.96vw;
-    line-height: 115%;    
-    
-    color: #000839;
 }
 
 .specH5{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 2.09vw;
     line-height: 2.52vw;
     
-    color: #000839;
     margin-top: 3.29vw;
     margin-bottom: 3.29vw;
 }
 
 .specBtn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 1.97vw 3.5vw;
     gap: 1.1vw;
     max-width: 28.5vw;
     
-    background: #FF9000;
     border-radius: 4.92vw;
 }
 
-.specBtn:hover{
-    background: #000839;
-}
-
-a,
-a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-  color: #fff;
-}
-
 .specBtnText {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
 font-size: 1.5vw;
-
-color: #FFFFFF;
-text-decoration: none;
-
-flex: none;
-order: 0;
-flex-grow: 0;
 }
 
 .specBtnCircle{
 width: 1.1vw;
 height: 1.1vw;
-background: #FFFFFF;
-border-radius: 100%;
-
-flex: none;
-order: 1;
-flex-grow: 0;
 }
 }
 
