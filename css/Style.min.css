@@ -1544,6 +1544,30 @@ span.comments_num::after {
 .relap-newslab_ru__list__view-strings .relap-newslab_ru__list__fake-item,.relap-newslab_ru__list__view-strings .relap-newslab_ru__list__item{min-width:100px!important}.relap-newslab_ru__plates__item-link:hover{text-decoration:none!important;color:#ff7500!important}.relap-newslab_ru__plates-wrapper .relap-newslab_ru__plates__item-title{margin-top:15px!important}@media (min-width:768px) and (max-width:991px){.r-recommend .relap-newslab_ru__plates__item:nth-child(7),.r-recommend .relap-newslab_ru__plates__item:nth-child(8){display:none!important}}@media (max-width:767px){.r-recommend .relap-newslab_ru__plates__item:nth-child(3),.r-recommend .relap-newslab_ru__plates__item:nth-child(4),.r-recommend .relap-newslab_ru__plates__item:nth-child(5),.r-recommend .relap-newslab_ru__plates__item:nth-child(6),.r-recommend .relap-newslab_ru__plates__item:nth-child(7),.r-recommend .relap-newslab_ru__plates__item:nth-child(8){display:none!important}}
 
 /* :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::*/
+  
+
+.box {
+    transform: translateX(400%);
+    transition: transform 0.7s ease;
+}
+
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.box.show {
+    transform: translateX(0);
+    display: flex;
+}
+
+
+.show {
+    display: flex!important;
+}
+  
 
 .points_of_growth{
     position: relative;
@@ -1555,6 +1579,7 @@ span.comments_num::after {
     
     display: flex;
     justify-content: center;
+	overflow-x:hidden;
 }
 
 .backImg{
@@ -2067,4 +2092,8 @@ height: 1.1vw;
 }
 }
 
+  
+/* :::::::::::::::::::::::::::::::egup finish:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup finish:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup finish:::::::::::::::::::::::::::::::*/
 /* :::::::::::::::::::::::::::::::egup finish:::::::::::::::::::::::::::::::*/
