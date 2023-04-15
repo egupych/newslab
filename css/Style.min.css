@@ -1652,7 +1652,25 @@ span.comments_num::after {
 
     background: #FF9000;
     mix-blend-mode: multiply;
+
+    animation-name: S_circle;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
 }
+
+@keyframes S_circle {
+    0% {
+      transform: scale(1)
+    }
+    100% {
+        transform: scale(1.7)
+    }
+  }
 
 .points_of_growth_header-tone{
     position: absolute;
