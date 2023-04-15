@@ -1787,12 +1787,12 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     background: #000839;
 }
 
-a,
-a:visited {
+.egupBtnText,
+.egupBtnText:visited {
   text-decoration: none;
 }
-a:hover {
-  text-decoration: none;
+.egupBtnText:hover {
+    text-decoration: none;
   color: #fff;
 }
 
