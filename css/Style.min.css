@@ -1655,7 +1655,7 @@ span.comments_num::after {
 
     animation-name: S_circle;
     animation-duration: 3s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease;
     animation-delay: 1s;
     animation-direction: alternate;
     animation-iteration-count: 1;
@@ -2048,6 +2048,11 @@ height: 0.73vw;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 1.6vw 1.31vw rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 0.88vw 0.73vw rgba(0, 0, 0, 0.02)) drop-shadow(0px 0.43vw 0.38vw rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 0.2vw 0.16vw rgba(0, 0, 0, 0.0112458));
 }
 
+/* .points_of_growt_card_image:hover img {
+    filter: grayscale(100%) contrast(0.5);
+  } */
+  
+
 .points_of_growt_card-right {
     width: 85.06vw;
 
@@ -2109,6 +2114,7 @@ width: 1.1vw;
 height: 1.1vw;
 }
 }
+
 
   
 /* :::::::::::::::::::::::::::::::egup finish:::::::::::::::::::::::::::::::*/
