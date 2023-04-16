@@ -1656,7 +1656,7 @@ span.comments_num::after {
     animation-name: S_circle;
     animation-duration: 3s;
     animation-timing-function: ease;
-    animation-delay: 1s;
+    animation-delay: 0.3s;
     animation-direction: alternate;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -1732,8 +1732,27 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
 
     border-radius: 9% 0 50% 0;
     clip-path: circle(100% at 0 0);
+
+    animation-name: C_circle;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
 }
 
+@keyframes C_circle {
+0% {
+    transform: scale(0.4);
+    transform-origin: top left;
+}
+100% {
+    transform: scale(1);
+    transform-origin: top left;
+}
+}
 
 .circle_angle_right{
     position: absolute;
@@ -1747,6 +1766,26 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
 
     border-radius: 0% 9% 0% 50%;
     clip-path: circle(100.0% at 100% 0);
+
+    animation-name: D_circle;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes D_circle {
+0% {
+    transform: scale(0.4);
+    transform-origin: top right;
+}
+100% {
+    transform: scale(1);
+    transform-origin: top right;
+}
 }
 
 .points_of_growt_card_image {
