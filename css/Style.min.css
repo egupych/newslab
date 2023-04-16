@@ -1548,16 +1548,16 @@ span.comments_num::after {
 /* :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::*/
 /* :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::*/
 
-.box {
+.egup_box {
     transform: translateX(50%);
     transition: transform 2s ease;
 }
 
-.box:nth-of-type(even) {
+.egup_box:nth-of-type(even) {
     transform: translateX(-50%);
 }
 
-.box.show {
+.egup_box.show {
     transform: translateX(0);
     display: flex;
 }
@@ -1587,7 +1587,7 @@ span.comments_num::after {
 }
 
 
-.egupH3 {
+.egup_h3 {
     /* Спецпроект */
     position: absolute;
     left: 49px;
@@ -1602,7 +1602,7 @@ span.comments_num::after {
 
     color: #000839;
 }
-.egupH2 {
+.egup_h2 {
 /* Красноярский край: */
     position: absolute;
     left: 45px;
@@ -1619,7 +1619,7 @@ span.comments_num::after {
 
     color: #000839;
 }
-.egupH1 {
+.egup_h1 {
 /* точки роста */
     position: absolute;
     left: 50px;
@@ -1674,36 +1674,24 @@ span.comments_num::after {
     margin-top: 400px;
 }
 
-.points_of_growth_body .img {
-    width: 390px;
-}
-
-.points_of_growt_card-left {
+.egup_card {
 width: 777px;
 
 display: flex;
 padding: 20px;
 margin-bottom: 30px;
-
+gap: 20px;
 
 background: #F7F7FA;
 border-radius: 12px;
 filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0287542));
 }
 
-.points_of_growt_card-right {
-    width: 777px;
-    
-    display: flex;
+
+
+.egup_reverse {
     flex-direction: row-reverse;
-    padding: 20px;
-    margin-bottom: 30px;
-    
-    
-    background: #F7F7FA;
-    border-radius: 12px;
-    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0287542));
-    }
+}
 
 
 .circle_angle{
@@ -1774,22 +1762,22 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
 }
 }
 
-.points_of_growt_card_image {
-    z-index: -1;
-}
-
-.img {
+.egup_img{
+    width: 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     border-radius: 10px;
 }
 
-.points_of_growt_card_text{
-    padding-top: 15px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 20px;
+.egup_card_text{
+    width: 50%;
+    padding: 20px;
 }
 
-.egupH4{
+.egup_h4{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
@@ -1799,7 +1787,7 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     color: #000839;
 }
 
-.egupH5{
+.egup_h5{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -1888,7 +1876,7 @@ flex-grow: 0;
     width: 64vw;
 }
 
-.egupH3 {
+.egup_h3 {
     /* Спецпроект */
     left: 3.57vw;
     top: 3.14vw;
@@ -1896,14 +1884,14 @@ flex-grow: 0;
     font-size: 2.04vw;
     line-height: 2.48vw;
 }
-.egupH2 {
+.egup_h2 {
 /* Красноярский край: */
     left: 3.28vw;
     top: 5.99vw;
 
     font-size: 3.72vw;
 }
-.egupH1 {
+.egup_h1 {
 /* точки роста */
     left: 3.64vw;
     top: 10.22vw;
@@ -1924,11 +1912,7 @@ flex-grow: 0;
     margin-top: 29.2vw;
 }
 
-.points_of_growth_body .img {
-    width: 28.44vw;
-}
-
-.points_of_growt_card-left {
+.egup_card {
     width: 56.71vw;
 
     padding: 1.46vw;
@@ -1940,7 +1924,7 @@ flex-grow: 0;
 
 }
 
-.points_of_growt_card-right {
+.egup_reverse {
     width: 56.71vw;
 
     padding: 1.46vw;
@@ -1962,23 +1946,18 @@ flex-grow: 0;
     border-radius: 0% 7% 0% 50%;
 }
 
-
-.img {
-    border-radius: 0.58vw;
-}
-
-.points_of_growt_card_text{
+.egup_card_text{
     padding-top: 1.9vw;
     padding-bottom: 1.46vw;
     padding-left: 2.92vw;
     padding-right: 1.46vw;
 }
 
-.egupH4{
+.egup_h4{
     font-size: 1.97vw;
 }
 
-.egupH5{
+.egup_h5{
     font-size: 1.39vw;
     line-height: 1.68vw;
     
@@ -2026,7 +2005,7 @@ font-size: 1vw;
     height: 57vw;
 }
 
-.egupH3 {
+.egup_h3 {
     /* Спецпроект */
     left: 5.36vw;
     top: 4.71vw;
@@ -2034,14 +2013,14 @@ font-size: 1vw;
     font-size: 3.06vw;
     line-height: 3.72vw;
 }
-.egupH2 {
+.egup_h2 {
 /* Красноярский край: */
     left: 4.92vw;
     top: 8.99vw;
 
     font-size: 5.58vw;
 }
-.egupH1 {
+.egup_h1 {
 /* точки роста */
     left: 5.46vw;
     top: 15.33vw;
@@ -2062,11 +2041,7 @@ font-size: 1vw;
     margin-top: 43.8vw;
 }
 
-.points_of_growth_body .img {
-    width: 42.66vw;
-}
-
-.points_of_growt_card-left {
+.egup_card {
     width: 85.06vw;
 
     padding: 2.19vw;
@@ -2077,7 +2052,7 @@ font-size: 1vw;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
 } 
 
-.points_of_growt_card-right {
+.egup_reverse {
     width: 85.06vw;
 
     padding: 2.19vw;
@@ -2099,22 +2074,18 @@ font-size: 1vw;
     border-radius: 0% 7% 0% 50%;
 }
 
-.img {
-    border-radius: 0.87vw;
-}
-
-.points_of_growt_card_text{
+.egup_card_text{
     padding-top: 2.85vw;
     padding-bottom: 2.19vw;
     padding-left: 4.38vw;
     padding-right: 2.19vw;
 }
 
-.egupH4{
+.egup_h4{
     font-size: 2.96vw;
 }
 
-.egupH5{
+.egup_h5{
     font-size: 2.09vw;
     line-height: 2.52vw;
     
@@ -2133,9 +2104,7 @@ font-size: 1vw;
 .egup_button_text {
 font-size: 1.5vw;
 }
-
 }
-
 
   
 /* :::::::::::::::::::::::::::::::egup finish:::::::::::::::::::::::::::::::*/

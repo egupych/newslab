@@ -6,7 +6,7 @@
 // :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::
 // :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::
 
-const boxes = document.querySelectorAll('.box');
+const boxes = document.querySelectorAll('.egup_box');
 
 window.addEventListener('scroll', checkBoxes);
 
@@ -15,13 +15,13 @@ checkBoxes(); // shows initial box(es)
 function checkBoxes() {
   const triggerBottom = (window.innerHeight / 3 * 4);
   
-  boxes.forEach(box => {
-    const boxTop = box.getBoundingClientRect().top;
+  boxes.forEach(egup_box => {
+    const egup_boxTop = egup_box.getBoundingClientRect().top;
     
-    if(boxTop < triggerBottom) {
-      box.classList.add('show');
+    if(egup_boxTop < triggerBottom) {
+      egup_box.classList.add('show');
     } else {
-      box.classList.remove('show');
+      egup_box.classList.remove('show');
     }
   })
 }
