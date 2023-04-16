@@ -1581,14 +1581,11 @@ span.comments_num::after {
 	overflow-x:hidden;
 }
 
-.backImg{
-    width: 836px;
-}
-
 .points_of_growth_header{
     height: 520px;
     position: absolute;
 }
+
 
 .egupH3 {
     /* Спецпроект */
@@ -1670,16 +1667,6 @@ span.comments_num::after {
         transform: scale(1.7)
     }
   }
-
-.points_of_growth_header-tone{
-    position: absolute;
-    width: 837px;
-    height: 180px;
-    left: 0px;
-    top: 340px;
-
-    background: linear-gradient(180deg, rgba(0, 8, 57, 0) 0%, #000839 130%);
-}
 
 .points_of_growth_body {
     display: flex;
@@ -1862,7 +1849,9 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
 .egup_button_text,
 .egup_button_text:visited {
   text-decoration: none;
+  color: #fff;
 }
+
 .egup_button_text:hover {
     text-decoration: none;
     color: #fff;
@@ -1929,12 +1918,6 @@ flex-grow: 0;
     height: 3.65vw;
     left: 30.36vw;
     top: 11.53vw;
-}
-
-.points_of_growth_header-tone{
-    width: 64vw;
-    height: 13.14vw;
-    top: 26.6vw;
 }
 
 .points_of_growth_body {
@@ -2073,12 +2056,6 @@ font-size: 1vw;
     height: 5.48vw;
     left: 45.54vw;
     top: 17.3vw;
-}
-
-.points_of_growth_header-tone{
-    width: 97vw;
-    height: 19.71vw;
-    top: 40.6vw;
 }
 
 .points_of_growth_body {
