@@ -1547,7 +1547,6 @@ span.comments_num::after {
 /* :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::*/
 /* :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::*/
 /* :::::::::::::::::::::::::::::::egup start:::::::::::::::::::::::::::::::*/
-  
 
 .box {
     transform: translateX(50%);
@@ -1825,7 +1824,20 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     margin-bottom: 30px;  
 }
 
-.egupBtn{
+.egup_button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    
+    background: #FF9000;
+    border-radius: 45px;
+}
+
+.egup_button{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1834,28 +1846,29 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     gap: 10px;
     max-width: 260px;
     
-    background: #FF9000;
+    background-color: #FF9000;
     border-radius: 45px;
+    transition: background-color 0.2s ease;
 }
 
-.egupBtn:active {
+.egup_button:active {
     transform: scale(0.97);
    }
 
-.egupBtn:hover{
-    background: #000839;
+.egup_button:hover{
+    background-color: #000839;
 }
 
-.egupBtnText,
-.egupBtnText:visited {
+.egup_button_text,
+.egup_button_text:visited {
   text-decoration: none;
 }
-.egupBtnText:hover {
+.egup_button_text:hover {
     text-decoration: none;
-  color: #fff;
+    color: #fff;
 }
 
-.egupBtnText {
+.egup_button_text {
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -1869,16 +1882,11 @@ order: 0;
 flex-grow: 0;
 }
 
-.egupBtnCircle{
-width: 10px;
-height: 10px;
-background: #FFFFFF;
-border-radius: 100%;
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
 
-flex: none;
-order: 1;
-flex-grow: 0;
-}
 
 @media screen  and (max-width: 1300px) {
 .points_of_growth{
@@ -1995,7 +2003,7 @@ flex-grow: 0;
     margin-bottom: 2.19vw;
 }
 
-.egupBtn{
+.egup_button{
     padding: 1.31vw 2.33vw;
     gap: 0.73vw;
     max-width: 19vw;
@@ -2003,19 +2011,20 @@ flex-grow: 0;
     border-radius: 3.28vw;
 }
 
-.egupBtn:active {
+.egup_button:active {
     transform: scale(1);
    }
 
-.egupBtnText {
+.egup_button_text {
 font-size: 1vw;
 }
 
-.egupBtnCircle{
-width: 0.73vw;
-height: 0.73vw;
 }
-}
+
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
 
 
 @media screen  and (max-width: 991px) {
@@ -2089,12 +2098,7 @@ height: 0.73vw;
 
     border-radius: 1.5vw;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
-}
-
-/* .points_of_growt_card_image:hover img {
-    filter: grayscale(100%) contrast(0.5);
-  } */
-  
+} 
 
 .points_of_growt_card-right {
     width: 85.06vw;
@@ -2141,7 +2145,7 @@ height: 0.73vw;
     margin-bottom: 3.29vw;
 }
 
-.egupBtn{
+.egup_button{
     padding: 1.97vw 3.5vw;
     gap: 1.1vw;
     max-width: 28.5vw;
@@ -2149,14 +2153,10 @@ height: 0.73vw;
     border-radius: 4.92vw;
 }
 
-.egupBtnText {
+.egup_button_text {
 font-size: 1.5vw;
 }
 
-.egupBtnCircle{
-width: 1.1vw;
-height: 1.1vw;
-}
 }
 
 
