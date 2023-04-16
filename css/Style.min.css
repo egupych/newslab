@@ -1719,32 +1719,34 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.02)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0112458));
     }
 
-.angle {
+
+.circle_angle{
     position: absolute;
-    mix-blend-mode: multiply;
+    width: 120px;
+    height: 120px;
+    left: 0;
     top: 0;
-    left:0;
-    z-index: -1;
-    border-radius: 14.5px;
+
+    background: #FF9000;
+    mix-blend-mode: multiply;
+
+    border-radius: 9% 0 50% 0;
+    clip-path: circle(100% at 0 0);
 }
 
-.angle-right {
+
+.circle_angle_right{
     position: absolute;
-    mix-blend-mode: multiply;
+    width: 120px;
+    height: 120px;
+    right: 0;
     top: 0;
-    right:0;
-    z-index: -1;
-    border-radius: 14.5px;
-}
 
-.angle img {
-    width: 116px;
-    border-radius: 10px 0 0 0vw;
-}
+    background: #FF9000;
+    mix-blend-mode: multiply;
 
-.angle-right img {
-    width: 116px;
-    border-radius: 0 10px 0 0vw;
+    border-radius: 0% 9% 0% 50%;
+    clip-path: circle(100.0% at 100% 0);
 }
 
 .points_of_growt_card_image {
@@ -1918,14 +1920,16 @@ flex-grow: 0;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 1.6vw 1.31vw rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 0.88vw 0.73vw rgba(0, 0, 0, 0.02)) drop-shadow(0px 0.43vw 0.38vw rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 0.2vw 0.16vw rgba(0, 0, 0, 0.0112458));
 }
 
-.angle img {
-    width: 10.2vw;
-    border-radius: 0.73vw 0 0 0vw;
+.circle_angle{
+    width: 10.6vw;
+    height: 10.6vw;
+    border-radius: 7% 0 50% 0;
 }
 
-.angle-right img {
-    width: 9vw;
-    border-radius: 0 0.73vw 0 0vw;
+.circle_angle_right{
+    width: 10.6vw;
+    height: 10.6vw;
+    border-radius: 0% 7% 0% 50%;
 }
 
 
@@ -2063,16 +2067,17 @@ height: 0.73vw;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542)) drop-shadow(0px 1.6vw 1.31vw rgba(0, 0, 0, 0.0238443)) drop-shadow(0px 0.88vw 0.73vw rgba(0, 0, 0, 0.02)) drop-shadow(0px 0.43vw 0.38vw rgba(0, 0, 0, 0.0161557)) drop-shadow(0px 0.2vw 0.16vw rgba(0, 0, 0, 0.0112458));
 }
 
-.angle img {
-    width: 16.2vw;
-    border-radius: 1.1vw 0 0 0vw;
+.circle_angle{
+    width: 16.8vw;
+    height: 16.8vw;
+    border-radius: 7% 0 50% 0;
 }
 
-.angle-right img {
-    width: 16.2vw;
-    border-radius: 0 1.1vw 0 0vw;
+.circle_angle_right{
+    width: 10.6vw;
+    height: 10.6vw;
+    border-radius: 0% 7% 0% 50%;
 }
-
 
 .img {
     border-radius: 0.87vw;
