@@ -1685,7 +1685,7 @@ span.comments_num::after {
 
     background: #F7F7FA;
     border-radius: 30px;
-    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0287542));
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.05)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0287542));
 }
 
 .egup_reverse {
@@ -1789,13 +1789,13 @@ span.comments_num::after {
 .egup_h5{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 19px;
     line-height: 23px;
     
     color: #000839;
-    margin-top: 30px;
-    margin-bottom: 30px;  
+    margin-top: 26px;
+    margin-bottom: 26px;  
 }
 
 .egup_button{
@@ -1805,7 +1805,6 @@ span.comments_num::after {
     align-items: center;
     padding: 18px 32px;
     gap: 10px;
-    max-width: 260px;
     text-decoration: none;
     text-align: center;
     cursor: pointer;
@@ -1908,7 +1907,7 @@ flex-grow: 0;
 
 
     border-radius: 2.14vw;
-    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
+    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.05)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
 
 }
 
@@ -1928,13 +1927,6 @@ flex-grow: 0;
     border-radius: 1.07vw;
 }
 
-.egup_card_text{
-    padding-top: 1.9vw;
-    padding-bottom: 1.46vw;
-    padding-left: 2.92vw;
-    padding-right: 1.46vw;
-}
-
 .egup_h4{
     font-size: 1.97vw;
 }
@@ -1950,7 +1942,6 @@ flex-grow: 0;
 .egup_button{
     padding: 1.31vw 2.33vw;
     gap: 0.73vw;
-    max-width: 19vw;
     
     border-radius: 3.28vw;
 }
@@ -2023,7 +2014,7 @@ font-size: 1vw;
 
 
     border-radius: 3.21vw;
-    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
+    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.05)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
 } 
 
 .circle_angle{
@@ -2058,14 +2049,13 @@ font-size: 1vw;
     font-size: 2.09vw;
     line-height: 2.52vw;
     
-    margin-top: 3.29vw;
-    margin-bottom: 3.29vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
 }
 
 .egup_button{
     padding: 1.97vw 3.5vw;
     gap: 1.1vw;
-    max-width: 28.5vw;
     
     border-radius: 4.92vw;
 }
@@ -2114,8 +2104,9 @@ font-size: 1.5vw;
     left: 5.46vw;
     top: 15.33vw;
 
-    font-size: 5.58vw;
+    font-size: 14vw;
     line-height: 104%;
+	text-align: center;	
 }
 
 
@@ -2136,7 +2127,7 @@ font-size: 1.5vw;
     gap: 0vw;
 
     border-radius: 8vw;
-    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
+    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.05)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
 
     flex-direction: column;
     flex-wrap: wrap;
@@ -2148,19 +2139,19 @@ font-size: 1.5vw;
 .circle_angle{
     width: 16.5vw;
     height: 16.5vw;
-    border-radius: 50% 0 50% 0;
+    border-radius: 47% 0 50% 0;
 }
 
 .circle_angle_right{
     width: 16.8vw;
     height: 16.8vw;
-    border-radius: 0% 50% 0% 50%;
+    border-radius: 0% 47% 0% 50%;
 }
 
 .egup_img {
     height: 40vw;
     width: 92%;
-    border-radius: 4.8vw;
+    border-radius: 4vw;
     margin-top: 3vw;
 }
 
@@ -2177,19 +2168,18 @@ font-size: 1.5vw;
     font-size: 4vw;
     line-height: 5vw;
     
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
 }
 
 .egup_button{
     padding: 4vw;
-    max-width: 100%;
     
     border-radius: 4.92vw;
 }
 
 .egup_button_text {
-    font-size: 3.3vw;
+    font-size: 3.7vw;
 }
 }
 
