@@ -1672,22 +1672,21 @@ span.comments_num::after {
     display: flex;
     flex-direction: column;
     margin-top: 400px;
+    align-items: center;
 }
 
 .egup_card {
-width: 777px;
+    width: 90%;
 
-display: flex;
-padding: 20px;
-margin-bottom: 30px;
-gap: 20px;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 30px;
+    gap: 20px;
 
-background: #F7F7FA;
-border-radius: 12px;
-filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0287542));
+    background: #F7F7FA;
+    border-radius: 30px;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0287542));
 }
-
-
 
 .egup_reverse {
     flex-direction: row-reverse;
@@ -1704,7 +1703,7 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     background: #FF9000;
     mix-blend-mode: multiply;
 
-    border-radius: 9% 0 50% 0;
+    border-radius: 24% 0 50% 0;
     clip-path: circle(100% at 0 0);
 
     animation-name: C_circle;
@@ -1738,7 +1737,7 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     background: #FF9000;
     mix-blend-mode: multiply;
 
-    border-radius: 0% 9% 0% 50%;
+    border-radius: 0% 24% 0% 50%;
     clip-path: circle(100.0% at 100% 0);
 
     animation-name: D_circle;
@@ -1769,7 +1768,7 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .egup_card_text{
@@ -1782,7 +1781,7 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     font-style: normal;
     font-weight: 800;
     font-size: 27px;
-    line-height: 114.9%;
+    line-height: 115%;
     
     color: #000839;
 }
@@ -1799,19 +1798,6 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     margin-bottom: 30px;  
 }
 
-.egup_button {
-    padding: 10px 20px;
-    background-color: #ccc;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    
-    background: #FF9000;
-    border-radius: 45px;
-}
-
 .egup_button{
     display: flex;
     flex-direction: row;
@@ -1820,8 +1806,12 @@ filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 41.7776p
     padding: 18px 32px;
     gap: 10px;
     max-width: 260px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
     
     background-color: #FF9000;
+    color: #fff;
     border-radius: 45px;
     transition: background-color 0.2s ease;
 }
@@ -1913,37 +1903,29 @@ flex-grow: 0;
 }
 
 .egup_card {
-    width: 56.71vw;
-
     padding: 1.46vw;
     margin-bottom: 4vw;
 
 
-    border-radius: 1vw;
-        filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
-
-}
-
-.egup_reverse {
-    width: 56.71vw;
-
-    padding: 1.46vw;
-    margin-bottom: 4vw;
-    
-    border-radius: 1vw;
+    border-radius: 2.14vw;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
+
 }
 
 .circle_angle{
-    width: 10.55vw;
-    height: 10.55vw;
-    border-radius: 7% 0 50% 0;
+    width: 10.6vw;
+    height: 10.6vw;
+    border-radius: 20% 0 50% 0;
 }
 
 .circle_angle_right{
-    width: 10.55vw;
-    height: 10.55vw;
-    border-radius: 0% 7% 0% 50%;
+    width: 10.6vw;
+    height: 10.6vw;
+    border-radius: 0% 20% 0% 50%;
+}
+
+.egup_img{
+    border-radius: 1.07vw;
 }
 
 .egup_card_text{
@@ -1980,14 +1962,12 @@ flex-grow: 0;
 .egup_button_text {
 font-size: 1vw;
 }
-
 }
 
 /* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
 /* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
 /* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
 /* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
-
 
 @media screen  and (max-width: 991px) {
 
@@ -1999,10 +1979,6 @@ font-size: 1vw;
 
 .backImg{
     width: 97vw;
-}
-
-.points_of_growth_header{
-    height: 57vw;
 }
 
 .egup_h3 {
@@ -2042,37 +2018,30 @@ font-size: 1vw;
 }
 
 .egup_card {
-    width: 85.06vw;
-
     padding: 2.19vw;
     margin-bottom: 6vw;
 
 
-    border-radius: 1.5vw;
+    border-radius: 3.21vw;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
 } 
-
-.egup_reverse {
-    width: 85.06vw;
-
-    padding: 2.19vw;
-    margin-bottom: 6vw;
-    
-    border-radius: 1.5vw;
-    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
-}
 
 .circle_angle{
     width: 16.5vw;
     height: 16.5vw;
-    border-radius: 7% 0 50% 0;
+    border-radius: 19% 0 50% 0;
 }
 
 .circle_angle_right{
     width: 16.8vw;
     height: 16.8vw;
-    border-radius: 0% 7% 0% 50%;
+    border-radius: 0% 19% 0% 50%;
 }
+
+.egup_img{
+    border-radius: 1.6vw;
+}
+
 
 .egup_card_text{
     padding-top: 2.85vw;
@@ -2106,7 +2075,126 @@ font-size: 1.5vw;
 }
 }
 
-  
+
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::egup media:::::::::::::::::::::::::::::::*/
+
+
+@media screen  and (max-width: 430px) {
+
+.points_of_growth{
+    left: 1.5vw;
+
+    width: 97vw;
+}
+
+.backImg{
+    width: 97vw;
+}
+
+.egup_h3 {
+    /* Спецпроект */
+    left: 5.36vw;
+    top: 4.71vw;
+
+    font-size: 3.06vw;
+    line-height: 3.72vw;
+}
+.egup_h2 {
+/* Красноярский край: */
+    left: 4.92vw;
+    top: 8.99vw;
+
+    font-size: 5.58vw;
+}
+.egup_h1 {
+/* точки роста */
+    left: 5.46vw;
+    top: 15.33vw;
+
+    font-size: 5.58vw;
+    line-height: 104%;
+}
+
+
+.circle{
+    width: 5.48vw;
+    height: 5.48vw;
+    left: 45.54vw;
+    top: 17.3vw;
+}
+
+.points_of_growth_body {
+    margin-top: 43.8vw;
+}
+
+.egup_card {
+    padding: 2.19vw;
+    margin-bottom: 6vw;
+    gap: 1vw;
+
+    border-radius: 8vw;
+    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+} 
+
+.circle_angle{
+    width: 16.5vw;
+    height: 16.5vw;
+    border-radius: 50% 0 50% 0;
+}
+
+.circle_angle_right{
+    width: 16.8vw;
+    height: 16.8vw;
+    border-radius: 0% 50% 0% 50%;
+}
+
+.egup_img {
+    height: 40vw;
+    width: 92%;
+    border-radius: 4.8vw;
+    margin-top: 3vw;
+}
+
+.egup_card_text{
+    width: 100%;
+    padding: 4vw;
+}
+
+.egup_h4{
+    font-size: 6vw;
+}
+
+.egup_h5{
+    font-size: 4vw;
+    line-height: 5vw;
+    
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.egup_button{
+    padding: 4vw;
+    max-width: 100%;
+    
+    border-radius: 4.92vw;
+}
+
+.egup_button_text {
+    font-size: 3.3vw;
+}
+}
+
+
+
 /* :::::::::::::::::::::::::::::::egup finish:::::::::::::::::::::::::::::::*/
 /* :::::::::::::::::::::::::::::::egup finish:::::::::::::::::::::::::::::::*/
 /* :::::::::::::::::::::::::::::::egup finish:::::::::::::::::::::::::::::::*/
