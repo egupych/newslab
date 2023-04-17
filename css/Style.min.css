@@ -1685,7 +1685,7 @@ span.comments_num::after {
 
     background: #F7F7FA;
     border-radius: 30px;
-    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.05)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0287542));
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.09)) drop-shadow(0px 41px 33px rgba(0, 0, 0, 0.04));
 }
 
 .egup_reverse {
@@ -1907,7 +1907,7 @@ flex-grow: 0;
 
 
     border-radius: 2.14vw;
-    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.05)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
+    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.09)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.04));
 
 }
 
@@ -2014,7 +2014,7 @@ font-size: 1vw;
 
 
     border-radius: 3.21vw;
-    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.05)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
+    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.09)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.04));
 } 
 
 .circle_angle{
@@ -2127,7 +2127,7 @@ font-size: 1.5vw;
     gap: 0vw;
 
     border-radius: 8vw;
-    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.05)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
+    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.09)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.04));
 
     flex-direction: column;
     flex-wrap: wrap;
