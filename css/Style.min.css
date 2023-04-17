@@ -1671,7 +1671,7 @@ span.comments_num::after {
 .points_of_growth_body {
     display: flex;
     flex-direction: column;
-    margin-top: 400px;
+    margin-top: 420px;
     align-items: center;
 }
 
@@ -1684,7 +1684,7 @@ span.comments_num::after {
     gap: 20px;
 
     background: #F7F7FA;
-    border-radius: 30px;
+    border-radius: 15px;
     filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.09)) drop-shadow(0px 41px 33px rgba(0, 0, 0, 0.04));
 }
 
@@ -1695,15 +1695,15 @@ span.comments_num::after {
 
 .circle_angle{
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     left: 0;
     top: 0;
 
     background: #FF9000;
     mix-blend-mode: multiply;
 
-    border-radius: 24% 0 50% 0;
+    border-radius: 12% 0 50% 0;
     clip-path: circle(100% at 0 0);
 
     animation-name: C_circle;
@@ -1729,15 +1729,15 @@ span.comments_num::after {
 
 .circle_angle_right{
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 95px;
+    height: 95px;
     right: 0;
     top: 0;
 
     background: #FF9000;
     mix-blend-mode: multiply;
 
-    border-radius: 0% 24% 0% 50%;
+    border-radius: 0% 12% 0% 50%;
     clip-path: circle(100.0% at 100% 0);
 
     animation-name: D_circle;
@@ -1762,13 +1762,13 @@ span.comments_num::after {
 }
 
 .egup_img{
-    width: 50%;
+    width: 52%;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .egup_card_text{
@@ -1780,7 +1780,7 @@ span.comments_num::after {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    font-size: 23px;
+    font-size: 25px;
     line-height: 115%;
     
     color: #000839;
@@ -1789,12 +1789,12 @@ span.comments_num::after {
 .egup_h5{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 17px;
     line-height: 20px;
     
     color: #000839;
-    margin-top: 26px;
+    margin-top: 20px;
     margin-bottom: 26px;  
 }
 
@@ -1803,8 +1803,7 @@ span.comments_num::after {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 18px 32px;
-    gap: 10px;
+    padding: 16px 30px;
     text-decoration: none;
     text-align: center;
     cursor: pointer;
@@ -1813,6 +1812,8 @@ span.comments_num::after {
     color: #fff;
     border-radius: 45px;
     transition: background-color 0.2s ease;
+
+    max-width: 240px;
 }
 
 .egup_button:active {
