@@ -2133,7 +2133,7 @@ font-size: 1.5vw;
 .egup_card {
     padding: 2.19vw;
     margin-bottom: 6vw;
-    gap: 1vw;
+    gap: 0vw;
 
     border-radius: 8vw;
     filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.04)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.0287542));
