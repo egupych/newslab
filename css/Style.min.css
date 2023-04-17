@@ -1780,7 +1780,7 @@ span.comments_num::after {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    font-size: 27px;
+    font-size: 23px;
     line-height: 115%;
     
     color: #000839;
@@ -1790,8 +1790,8 @@ span.comments_num::after {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 19px;
-    line-height: 23px;
+    font-size: 17px;
+    line-height: 20px;
     
     color: #000839;
     margin-top: 26px;
