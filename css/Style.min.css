@@ -2118,13 +2118,13 @@ font-size: 1.62vw;
 
 .egup_h2 {
 /* Красноярский край: */
-    left: 0;
-    top: 50px;
-
+    left: 22vw;
+    top: 17vw;
+	
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 16.6101px;
+    font-size: 3.9vw;
     line-height: 100%;
 
     text-transform: uppercase;
@@ -2132,12 +2132,13 @@ font-size: 1.62vw;
     color: #000839;
 }
 .egup_h1 {
-    left: 0;
+    left: 22vw;
+    top: 21vw;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 57px;
+    font-size: 13.4vw;
     line-height: 92%;
     
     text-transform: uppercase;
@@ -2146,10 +2147,10 @@ font-size: 1.62vw;
 }
 
 .circle{
-    width: 40px;
-    height: 40px;
-    left: 181px;
-    top: 137px;
+    width: 10vw;
+    height: 10vw;
+    left: 64.5vw;
+    top: 37vw;
 }
 
 .points_of_growth_body {
