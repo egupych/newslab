@@ -1695,7 +1695,7 @@ span.comments_num::after {
 
     background: #F7F7FA;
     border-radius: 15px;
-    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.09)) drop-shadow(0px 41px 33px rgba(0, 0, 0, 0.04));
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.12));
 }
 
 .egup_card:last-child {
@@ -1926,7 +1926,7 @@ flex-grow: 0;
 
 
     border-radius: 1.15vw;
-    filter: drop-shadow(0px 7.66vw 6.12vw rgba(0, 0, 0, 0.09)) drop-shadow(0px 3.14vw 2.53vw rgba(0, 0, 0, 0.04));
+    filter: drop-shadow(0px 7.66vw 6.12vw rgba(0, 0, 0, 0.12));
 }
 
 .egup_card:last-child {
@@ -2031,7 +2031,7 @@ font-size: 1.07vw;
 
 
     border-radius: 1.74vw;
-    filter: drop-shadow(0px 11.61vw 9.27vw rgba(0, 0, 0, 0.09)) drop-shadow(0px 4.75vw 3.83vw rgba(0, 0, 0, 0.04));
+    filter: drop-shadow(0px 11.61vw 9.27vw rgba(0, 0, 0, 0.12));
 } 
 
 .egup_card:last-child {
@@ -2163,7 +2163,7 @@ font-size: 1.62vw;
     gap: 0vw;
 
     border-radius: 3vw;
-    filter: drop-shadow(0px 11.61vw 9.27vw rgba(0, 0, 0, 0.09)) drop-shadow(0px 4.75vw 3.83vw rgba(0, 0, 0, 0.04));
+    filter: drop-shadow(0px 11.61vw 9.27vw rgba(0, 0, 0, 0.12));
 
     flex-direction: column;
     flex-wrap: wrap;
