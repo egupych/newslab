@@ -1682,12 +1682,16 @@ span.comments_num::after {
 
     display: flex;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     gap: 20px;
 
     background: #F7F7FA;
     border-radius: 15px;
     filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.09)) drop-shadow(0px 41px 33px rgba(0, 0, 0, 0.04));
+}
+
+.egup_card:last-child {
+    margin-bottom: 40px;
 }
 
 .egup_reverse {
@@ -1814,8 +1818,6 @@ span.comments_num::after {
     color: #fff;
     border-radius: 45px;
     transition: background-color 0.2s ease;
-
-    max-width: 250px;
 }
 
 .egup_button:active {
@@ -1912,12 +1914,15 @@ flex-grow: 0;
 
 .egup_card {
     padding: 1.53vw;
-    margin-bottom: 2.3vw;
+    margin-bottom: 2vw;
 
 
     border-radius: 1.15vw;
     filter: drop-shadow(0px 7.66vw 6.12vw rgba(0, 0, 0, 0.09)) drop-shadow(0px 3.14vw 2.53vw rgba(0, 0, 0, 0.04));
+}
 
+.egup_card:last-child {
+    margin-bottom: 4vw;
 }
 
 .circle_angle{
@@ -2014,12 +2019,16 @@ font-size: 1.07vw;
 
 .egup_card {
     padding: 2.31vw;
-    margin-bottom: 3.48vw;
+    margin-bottom: 3vw;
 
 
     border-radius: 1.74vw;
     filter: drop-shadow(0px 11.61vw 9.27vw rgba(0, 0, 0, 0.09)) drop-shadow(0px 4.75vw 3.83vw rgba(0, 0, 0, 0.04));
 } 
+
+.egup_card:last-child {
+    margin-bottom: 6vw;
+}
 
 .circle_angle{
     width: 11.61vw;
@@ -2119,11 +2128,11 @@ font-size: 1.62vw;
 
 .egup_card {
     padding: 2.19vw;
-    margin-bottom: 6vw;
+    margin-bottom: 5vw;
     gap: 0vw;
 
-    border-radius: 8vw;
-    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.09)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.04));
+    border-radius: 3vw;
+    filter: drop-shadow(0px 11.61vw 9.27vw rgba(0, 0, 0, 0.09)) drop-shadow(0px 4.75vw 3.83vw rgba(0, 0, 0, 0.04));
 
     flex-direction: column;
     flex-wrap: wrap;
@@ -2132,22 +2141,26 @@ font-size: 1.62vw;
     align-content: center;
 } 
 
+.egup_card:last-child {
+    margin-bottom: 10vw;
+}
+
 .circle_angle{
-    width: 16.5vw;
-    height: 16.5vw;
-    border-radius: 47% 0 50% 0;
+    width: 18vw;
+    height: 18vw;
+    border-radius: 16% 0 50% 0;
 }
 
 .circle_angle_right{
-    width: 16.8vw;
-    height: 16.8vw;
-    border-radius: 0% 47% 0% 50%;
+    width: 18vw;
+    height: 18vw;
+    border-radius: 0% 16% 0% 50%;
 }
 
 .egup_img {
-    height: 40vw;
+    height: 50vw;
     width: 92%;
-    border-radius: 4vw;
+    border-radius: 2vw;
     margin-top: 3vw;
 }
 
@@ -2171,7 +2184,7 @@ font-size: 1.62vw;
 .egup_button{
     padding: 4vw;
     
-    border-radius: 4.92vw;
+    border-radius: 50vw;
 }
 
 .egup_button_text {
