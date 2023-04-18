@@ -1815,7 +1815,7 @@ span.comments_num::after {
     border-radius: 45px;
     transition: background-color 0.2s ease;
 
-    max-width: 240px;
+    max-width: 250px;
 }
 
 .egup_button:active {
@@ -1954,10 +1954,6 @@ flex-grow: 0;
     border-radius: 3.44vw;
 }
 
-.egup_button:active {
-    transform: scale(1);
-   }
-
 .egup_button_text {
 font-size: 1.07vw;
 }
@@ -1971,7 +1967,7 @@ font-size: 1.07vw;
 @media screen  and (max-width: 991px) {
 
 .points_of_growth{
-    left: 1.5vw;
+    left: 1.62vw;
 
     width: 97vw;
 }
@@ -1982,94 +1978,86 @@ font-size: 1.07vw;
 
 .egup_h3 {
     /* Спецпроект */
-    left: 5.36vw;
-    top: 4.71vw;
+    left: 5.68vw;
+    top: 4.99vw;
 
-    font-size: 3.06vw;
-    line-height: 3.72vw;
+    font-size: 3.24vw;
+    line-height: 3.94vw;
 }
 .egup_h2 {
 /* Красноярский край: */
-    left: 4.92vw;
-    top: 8.99vw;
+    left: 5.21vw;
+    top: 9.52vw;
 
-    font-size: 5.58vw;
+    font-size: 5.91vw;
 }
 .egup_h1 {
 /* точки роста */
-    left: 5.46vw;
-    top: 15.33vw;
+    left: 5.8vw;
+    top: 16.25vw;
 
-    font-size: 5.58vw;
+    font-size: 5.91vw;
     line-height: 104%;
 }
 
 
 .circle{
-    width: 5.48vw;
-    height: 5.48vw;
-    left: 45.54vw;
-    top: 17.3vw;
+    width: 5.8vw;
+    height: 5.8vw;
+    left: 48.27vw;
+    top: 18.33vw;
 }
 
 .points_of_growth_body {
-    margin-top: 43.8vw;
+    margin-top: 48.72vw;
 }
 
 .egup_card {
-    padding: 2.19vw;
-    margin-bottom: 6vw;
+    padding: 2.31vw;
+    margin-bottom: 3.48vw;
 
 
-    border-radius: 3.21vw;
-    filter: drop-shadow(0px 7.3vw 5.84vw rgba(0, 0, 0, 0.09)) drop-shadow(0px .29vw 2.4vw rgba(0, 0, 0, 0.04));
+    border-radius: 1.74vw;
+    filter: drop-shadow(0px 11.61vw 9.27vw rgba(0, 0, 0, 0.09)) drop-shadow(0px 4.75vw 3.83vw rgba(0, 0, 0, 0.04));
 } 
 
 .circle_angle{
-    width: 16.5vw;
-    height: 16.5vw;
-    border-radius: 19% 0 50% 0;
+    width: 11.61vw;
+    height: 11.61vw;
+    border-radius: 12% 0 50% 0;
 }
 
 .circle_angle_right{
-    width: 16.8vw;
-    height: 16.8vw;
-    border-radius: 0% 19% 0% 50%;
+    width: 11.61vw;
+    height: 11.61vw;
+    border-radius: 0% 12% 0% 50%;
 }
 
 .egup_img{
-    border-radius: 1.6vw;
-}
-
-
-.egup_card_text{
-    padding-top: 2.85vw;
-    padding-bottom: 2.19vw;
-    padding-left: 4.38vw;
-    padding-right: 2.19vw;
+    border-radius: 0.57vw;
 }
 
 .egup_h4{
-    font-size: 2.96vw;
+    font-size: 2.89vw;
 }
 
 .egup_h5{
-    font-size: 2.09vw;
-    line-height: 2.52vw;
+    font-size: 1.97vw;
+    line-height: 2.31vw;
     
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-top: 2.31vw;
+    margin-bottom: 3.02vw;
 }
 
 .egup_button{
-    padding: 1.97vw 3.5vw;
+    padding: 1.85vw 3.5vw;
     gap: 1.1vw;
     
-    border-radius: 4.92vw;
+    border-radius: 5.21vw;
 }
 
 .egup_button_text {
-font-size: 1.5vw;
+font-size: 1.62vw;
 }
 }
 
