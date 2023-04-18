@@ -2091,7 +2091,7 @@ font-size: 1.62vw;
     left: 1.5vw;
 
     width: 97vw;
-text-align: center;
+/* text-align: center; */
 }
 
 .egup_cover {
@@ -2104,6 +2104,14 @@ text-align: center;
     width: 97vw;
 }
 
+.points_of_growth_header{
+
+}
+
+.egup_header_mobile {
+
+}
+
 .egup_h3 {
     display: none;
 }
@@ -2111,13 +2119,13 @@ text-align: center;
 .egup_h2 {
 /* Красноярский край: */
     left: 0;
+    top: 50px;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 16.6101px;
-    line-height: 92%;
-    text-align: center;
+    line-height: 100%;
 
     text-transform: uppercase;
 
@@ -2138,10 +2146,10 @@ text-align: center;
 }
 
 .circle{
-    width: 5.48vw;
-    height: 5.48vw;
-    left: 45.54vw;
-    top: 17.3vw;
+    width: 40px;
+    height: 40px;
+    left: 181px;
+    top: 137px;
 }
 
 .points_of_growth_body {
