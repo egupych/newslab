@@ -2104,16 +2104,13 @@ font-size: 1.62vw;
     width: 97vw;
 }
 
-.points_of_growth_header{
-
-}
-
-.egup_header_mobile {
-
-}
-
 .egup_h3 {
-    display: none;
+    left: 78.1vw;
+    top: 28.6vw;
+    font-size: 2.76vw;
+    letter-spacing: 0.74vw;
+    
+    transform: rotate(-90deg);
 }
 
 .egup_h2 {
