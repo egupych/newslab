@@ -1586,6 +1586,14 @@ span.comments_num::after {
     position: absolute;
 }
 
+.egup_cover {
+    display: block;
+}
+
+.egup_cover_mobile {
+    display: none;
+}
+
 
 .egup_h3 {
     /* Спецпроект */
@@ -1612,7 +1620,7 @@ span.comments_num::after {
     font-style: normal;
     font-weight: 500;
     font-size: 51px;
-    line-height: 103.9%;
+    line-height: 104%;
     /* identical to box height, or 53px */
 
     text-transform: uppercase;
@@ -1866,7 +1874,7 @@ flex-grow: 0;
     width: 64vw;
 }
 
-.backImg{
+.egup_cover{
     width: 64vw;
 }
 
@@ -1977,7 +1985,7 @@ font-size: 1.07vw;
     width: 97vw;
 }
 
-.backImg{
+.egup_cover{
     width: 97vw;
 }
 
@@ -2083,37 +2091,51 @@ font-size: 1.62vw;
     left: 1.5vw;
 
     width: 97vw;
+text-align: center;
 }
 
-.backImg{
+.egup_cover {
+    display: none;
+}
+
+.egup_cover_mobile {
+    display: block;
+
     width: 97vw;
 }
 
 .egup_h3 {
-    /* Спецпроект */
-    left: 5.36vw;
-    top: 4.71vw;
-
-    font-size: 3.06vw;
-    line-height: 3.72vw;
+    display: none;
 }
+
 .egup_h2 {
 /* Красноярский край: */
-    left: 4.92vw;
-    top: 8.99vw;
+    left: 0;
 
-    font-size: 3vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.6101px;
+    line-height: 92%;
+    text-align: center;
+
+    text-transform: uppercase;
+
+    color: #000839;
 }
 .egup_h1 {
-/* точки роста */
-    left: 5.46vw;
-    top: 15.33vw;
+    left: 0;
 
-    font-size: 14vw;
-    line-height: 104%;
-	text-align: center;	
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 92%;
+    
+    text-transform: uppercase;
+    
+    color: #000839;
 }
-
 
 .circle{
     width: 5.48vw;
@@ -2123,7 +2145,7 @@ font-size: 1.62vw;
 }
 
 .points_of_growth_body {
-    margin-top: 43.8vw;
+    margin-top: 81.4vw;
 }
 
 .egup_card {
