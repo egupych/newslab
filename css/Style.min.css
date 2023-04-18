@@ -2199,6 +2199,10 @@ font-size: 1.62vw;
     width: 100%;
     padding: 4vw;
 }
+	
+.egup_card_text_mobile{
+    padding: 1vw;
+}
 
 .egup_h4{
     font-size: 6vw;
