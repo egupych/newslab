@@ -1594,6 +1594,9 @@ span.comments_num::after {
     display: none;
 }
 
+.egup_line {
+    display: none;
+}
 
 .egup_h3 {
     /* Спецпроект */
@@ -2102,6 +2105,13 @@ font-size: 1.62vw;
     display: block;
 
     width: 97vw;
+}
+
+.egup_line {
+    position: absolute;
+    display: block;
+    left: 91.8vw;
+    top: 0vw;
 }
 
 .egup_h3 {
