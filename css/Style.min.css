@@ -1744,39 +1744,6 @@ span.comments_num::after {
 }
 }
 
-.circle_angle_blue{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 0;
-    top: 0;
-
-    background: #6775cf;
-    mix-blend-mode: multiply;
-
-    border-radius: 12% 0 50% 0;
-    clip-path: circle(100% at 0 0);
-
-    animation-name: C_circle;
-    animation-duration: 3s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-direction: alternate;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-}
-
-@keyframes C_circle {
-0% {
-    transform: scale(0.4);
-    transform-origin: top left;
-}
-100% {
-    transform: scale(1);
-    transform-origin: top left;
-}
-}
 
 .circle_angle_right{
     position: absolute;
@@ -1786,6 +1753,40 @@ span.comments_num::after {
     top: 0;
 
     background: #FF9000;
+    mix-blend-mode: multiply;
+
+    border-radius: 0% 12% 0% 50%;
+    clip-path: circle(100.0% at 100% 0);
+
+    animation-name: D_circle;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes D_circle {
+0% {
+    transform: scale(0.4);
+    transform-origin: top right;
+}
+100% {
+    transform: scale(1);
+    transform-origin: top right;
+}
+}
+
+.circle_angle_blue{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 0;
+
+    background: #6775cf;
     mix-blend-mode: multiply;
 
     border-radius: 0% 12% 0% 50%;
@@ -2019,13 +2020,13 @@ flex-grow: 0;
     margin-bottom: 4vw;
 }
 
-.circle_angle, .circle_angle_blue{
+.circle_angle{
     width: 7.66vw;
     height: 7.66vw;
     border-radius: 12% 0 50% 0;
 }
 
-.circle_angle_right{
+.circle_angle_right, .circle_angle_blue{
     width: 7.66vw;
     height: 7.66vw;
     border-radius: 0% 12% 0% 50%;
@@ -2130,13 +2131,13 @@ font-size: 1.07vw;
     margin-bottom: 6vw;
 }
 
-.circle_angle, .circle_angle_blue{
+.circle_angle{
     width: 11.61vw;
     height: 11.61vw;
     border-radius: 12% 0 50% 0;
 }
 
-.circle_angle_right{
+.circle_angle_right, .circle_angle_blue{
     width: 11.61vw;
     height: 11.61vw;
     border-radius: 0% 12% 0% 50%;
@@ -2273,13 +2274,13 @@ font-size: 1.62vw;
     margin-bottom: 10vw;
 }
 
-.circle_angle, .circle_angle_blue{
+.circle_angle{
     width: 18vw;
     height: 18vw;
     border-radius: 16% 0 50% 0;
 }
 
-.circle_angle_right{
+.circle_angle_right, .circle_angle_blue{
     width: 18vw;
     height: 18vw;
     border-radius: 0% 16% 0% 50%;
